@@ -29,7 +29,7 @@
    - *Description:* Graduation project at Al-Azhar University. Full-stack vehicle rental & fleet management platform unifying booking workflows, inspections, driver assignments, and Paymob payments.
    - *Stack:* .NET 10 (ASP.NET Core), Next.js 16, Microsoft SQL Server, EF Core, Docker, Playwright, xUnit.
 2. **Siraj LMS (سراج)**
-   - *Deployment:* [siraj-ahmedhosnypro-5973s-projects.vercel.app](https://siraj-ahmedhosnypro-5973s-projects.vercel.app) (Live Dashboard)
+   - *Deployment:* [siraj-eight.vercel.app](https://siraj-eight.vercel.app/) (Live Dashboard)
    - *Repository:* [sirajLMS/siraj](https://github.com/sirajLMS/siraj) (Private)
    - *Description:* Modular Enterprise Learning Management System featuring scheduling engines, role-based access control (RBAC), and automated WhatsApp communication channels.
    - *Stack:* Next.js 16, Material UI, Drizzle ORM, PostgreSQL, GraphQL (Pothos), Zustand, next-intl.
