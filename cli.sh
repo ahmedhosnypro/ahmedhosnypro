@@ -52,7 +52,7 @@ echo ""
 
 echo -e "  ${YELLOW}┌──${RESET} ${BOLD}Flagship Work${RESET}"
 echo -e "  ${YELLOW}│${RESET}  ${YELLOW}1.${RESET} ${BOLD}Ares Car Rental${RESET} (Graduation Project) → https://github.com/azsce/ares"
-echo -e "  ${YELLOW}│${RESET}  ${YELLOW}2.${RESET} ${BOLD}Siraj LMS (سراج)${RESET}                 → https://siraj-pink.vercel.app/dashboard"
+echo -e "  ${YELLOW}│${RESET}  ${YELLOW}2.${RESET} ${BOLD}Siraj LMS (سراج)${RESET}                 → https://siraj-ahmedhosnypro-5973s-projects.vercel.app"
 echo -e "  ${YELLOW}│${RESET}  ${YELLOW}3.${RESET} ${BOLD}Prompt House${RESET}                     → https://creative-prompts-chi.vercel.app"
 echo -e "  ${YELLOW}│${RESET}  ${YELLOW}4.${RESET} ${BOLD}Thekr (ذكر) Multiplatform${RESET}        → https://github.com/ahmedhosnypro/Thekr"
 echo -e "  ${YELLOW}│${RESET}  ${YELLOW}5.${RESET} ${BOLD}AI PR Generator Chrome Ext${RESET}       → https://github.com/ahmedhosnypro/github-pr-generator"
