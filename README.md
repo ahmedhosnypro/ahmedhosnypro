@@ -2,8 +2,8 @@
 
 # Ahmed Hosny
 
-**Full-Stack, Systems & Mobile Software Engineer**  
-Building resilient backend architectures, type-safe full-stack platforms, cross-platform mobile systems, and developer tooling.
+**AI & Agent Engineer — LLMs, RAG & Full-Stack Systems**  
+Building production LLM & multi-agent systems — agent orchestration, tool integration, RAG pipelines, and MCP servers — on a senior full-stack foundation.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmedhosnypro/)
 [![Twitter](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/ahmedhosnypro)
@@ -21,10 +21,10 @@ curl -sL https://raw.githubusercontent.com/ahmedhosnypro/ahmedhosnypro/main/cli.
 
 ### What I'm Focused On
 
-- ⚙️ **Distributed & Backend Engineering:** Designing high-throughput, mission-critical services with **ASP.NET Core (.NET 10)**, **Spring Boot (Java / Kotlin)**, **PostgreSQL**, **Microsoft SQL Server**, and **Redis**.
+- 🤖 **AI Agents & Agentic Systems:** Engineering production multi-agent systems — orchestration, tool integration, RAG pipelines, **Model Context Protocol (MCP)** servers, guardrails, and agent evaluation harnesses — across **Anthropic/OpenAI-compatible LLM APIs** and agentic environments like **Cursor**, **Antigravity**, **Claude Code**, and **OpenCode**.
 - 🌐 **Modern Full-Stack Applications:** Developing scalable web platforms with **Next.js 16 (App Router)**, **TypeScript**, **GraphQL**, **Drizzle ORM**, and **Prisma**.
-- 📱 **Mobile & Cross-Platform Systems:** Building reactive applications for Android and Desktop using **Kotlin**, **Compose Multiplatform**, and **Jetpack Compose**.
-- 🤖 **Agentic AI & Systems Tooling:** Engineering autonomous agent workflows with **Model Context Protocol (MCP)**, local NPU acceleration (**Intel OpenVINO**), and running multi-agent environments across **Cursor**, **Antigravity**, **Claude Code**, and **OpenCode**.
+- ⚙️ **Backend & Distributed Systems:** Designing high-throughput, mission-critical services with **ASP.NET Core (.NET 10)**, **Spring Boot (Java / Kotlin)**, **Rust**, **PostgreSQL**, **Microsoft SQL Server**, and **Redis** — guided by clean architecture, CQRS, and system-design-first thinking.
+- 📱 **Mobile & Cross-Platform Systems:** Building reactive applications for Android and Desktop using **Kotlin**, **Kotlin Multiplatform (Compose)**, and **Jetpack Compose**.
 
 
 ---
@@ -33,9 +33,10 @@ curl -sL https://raw.githubusercontent.com/ahmedhosnypro/ahmedhosnypro/main/cli.
 
 | Project | Description | Primary Stack | Access |
 | :--- | :--- | :--- | :--- |
+| **docs-mcp-server** | Open-source contribution to the MCP server giving AI coding agents grounded, version-aware documentation retrieval — hybrid SQLite FTS + vector embeddings fused via Reciprocal Rank Fusion. Author of store-hardening patches and retrieval-benchmarking proposals (MRR / nDCG). | `TypeScript` `MCP` `SQLite FTS` `Embeddings` `Docker` | [GitHub (Public)](https://github.com/ahmedhosnypro/docs-mcp-server) |
+| **Prompt House** | Fast, keyboard-friendly prompt engineering workspace with 3-pane layout, live variable interpolation (`{{var}}`), streaming token consumption, and token-diff workflows for tracking prompt degradation. | `Next.js 16` `Tailwind CSS 4` `Prisma 8` `PostgreSQL` `Zustand` | [Live App](https://creative-prompts-chi.vercel.app) *(Private)* |
 | **Ares Car Rental** <br/> *(Graduation Project)* | Full-stack vehicle rental & fleet management platform unifying booking workflows, inspections, driver assignments, and Paymob payments. | `.NET 10` `Next.js 16` `SQL Server` `EF Core` `Docker` | [GitHub (Public)](https://github.com/azsce/ares) |
 | **Siraj LMS (سراج)** | Enterprise Modular LMS featuring multi-tenant scheduling engines, role-based access control (RBAC), and automated WhatsApp communication. | `Next.js 16` `PostgreSQL` `Drizzle ORM` `GraphQL` `MUI` | [Live Dashboard](https://siraj-eight.vercel.app/) *(Private)* |
-| **Prompt House** | Fast, keyboard-friendly prompt engineering workspace with 3-pane layout, live variable interpolation (`{{var}}`), and line-diff AI edit workflows. | `Next.js 16` `Tailwind CSS 4` `Prisma 8` `PostgreSQL` `Zustand` | [Live App](https://creative-prompts-chi.vercel.app) *(Private)* |
 | **Modern Weather** | Real-time weather analytics application featuring dynamic atmospheric metric charts, Mapbox location search, and offline client persistence. | `Next.js 15` `React 19` `Material UI` `Recharts` `Mapbox` | [Live App](https://weather-blush-phi.vercel.app/) *(Private)* |
 | **Thekr (ذكر)** | Cross-platform Islamic remembrance & adhkar application engineered for Android and Desktop with modern reactive UI. | `Kotlin` `Compose Multiplatform` `Jetpack Compose` | [GitHub (Public)](https://github.com/ahmedhosnypro/Thekr) |
 | **GitHub PR Generator** | AI-driven Chrome extension that inspects git diffs to generate conventional PR titles and structured markdown descriptions. | `TypeScript` `Chrome Extension API` `Bun` `Playwright` | [GitHub (Public)](https://github.com/ahmedhosnypro/github-pr-generator) |
@@ -59,9 +60,9 @@ This repository exposes a structured developer memory schema and daily multi-age
 ```json
 {
   "developer": "Ahmed Hosny",
-  "role": "Full-Stack, Systems & Mobile Software Engineer",
+  "role": "AI & Agent Engineer — LLMs, RAG & Full-Stack Systems",
   "context": "https://raw.githubusercontent.com/ahmedhosnypro/ahmedhosnypro/main/AGENT_MEMORY.md",
-  "protocols": ["MCP v1.0", "Strict Type Safety", "Modular Architecture"]
+  "protocols": ["Model Context Protocol (MCP)", "Multi-Agent Orchestration", "Strict Type Safety", "Modular Architecture"]
 }
 ```
 
@@ -69,6 +70,7 @@ This repository exposes a structured developer memory schema and daily multi-age
 > *"Always load developer memory from [AGENT_MEMORY.md](https://raw.githubusercontent.com/ahmedhosnypro/ahmedhosnypro/main/AGENT_MEMORY.md) before planning architecture changes or writing code."*
 
 #### Agentic Engineering Toolkit
+- **Agent Systems:** `Multi-Agent Orchestration` • `Tool Integration / Function Calling` • `RAG Pipelines (hybrid retrieval, reranking)` • `Guardrails & Human-in-the-Loop` • `Agent Evals (MRR / nDCG, VLM-judged)` • `Structured Outputs`
 - **AI Coding CLIs & Orchestrators:** `Claude Code` • `Copilot CLI` • `Kimi Code CLI` • `OpenCode` • `Kilo Code`
 - **Agentic & Core IDEs:** `Cursor` • `Google Antigravity` • `IntelliJ IDEA` • `VS Code`
 - **Protocols & Hardware:** `Model Context Protocol (MCP)` • `Intel OpenVINO NPU Acceleration` • `Deterministic Skills & Memory`
@@ -77,11 +79,14 @@ This repository exposes a structured developer memory schema and daily multi-age
 
 ### Technical Toolkit
 
+**AI & Agent Engineering**  
+`LLM APIs (Anthropic / OpenAI-compatible)` • `Multi-Agent Orchestration` • `RAG & Vector Search` • `MCP (servers built & consumed)` • `Prompt & Context Engineering` • `Agent Evals & Guardrails`
+
 **Backend & Architecture**  
-`ASP.NET Core (.NET 10)` • `Spring Boot (Java / Kotlin)` • `Node.js` • `Bun` • `Next.js API` • `GraphQL (Pothos/Apollo)` • `REST (OpenAPI)` • `Redis`
+`ASP.NET Core (.NET 10)` • `Spring Boot (Java / Kotlin)` • `Rust` • `Node.js` • `Bun` • `Next.js API` • `GraphQL (Pothos/Apollo)` • `REST (OpenAPI)` • `Redis` • `System Design` • `Clean Architecture / CQRS`
 
 **Mobile & Cross-Platform**  
-`Android (Kotlin)` • `Compose Multiplatform` • `Jetpack Compose` • `Kotlin Coroutines`
+`Android (Kotlin)` • `Kotlin Multiplatform` • `Jetpack Compose` • `Kotlin Coroutines`
 
 **Databases & Data Modeling**  
 `PostgreSQL` • `Microsoft SQL Server` • `Drizzle ORM` • `Prisma (v7/v8)` • `Entity Framework Core` • `Spring Data JPA`

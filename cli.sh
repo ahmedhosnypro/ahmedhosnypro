@@ -28,7 +28,7 @@ cat << "EOF"
 EOF
 echo -e "${RESET}"
 
-echo -e "  ${BOLD}${PURPLE}Full-Stack, Systems & Mobile Software Engineer${RESET}"
+echo -e "  ${BOLD}${PURPLE}AI & Agent Engineer — LLMs, RAG & Full-Stack Systems${RESET}"
 echo -e "  ${DIM}Al-Azhar University · Systems & Computer Engineering${RESET}"
 echo ""
 
@@ -42,20 +42,22 @@ echo -e "  ${BLUE}│${RESET}  ${CYAN}Email:${RESET}      mailto:ahhosnyas@gmail
 echo ""
 
 echo -e "  ${PURPLE}┌──${RESET} ${BOLD}Engineering Stack${RESET}"
-echo -e "  ${PURPLE}│${RESET}  ${GREEN}Primary:${RESET}    TypeScript · Kotlin · Java · C# (.NET 10)"
+echo -e "  ${PURPLE}│${RESET}  ${GREEN}AI Systems:${RESET}   LLMs · RAG Pipelines · Multi-Agent Orchestration · MCP"
+echo -e "  ${PURPLE}│${RESET}  ${GREEN}Primary:${RESET}    TypeScript · Kotlin · Java · C# (.NET 10) · Rust"
 echo -e "  ${PURPLE}│${RESET}  ${GREEN}Backends:${RESET}   ASP.NET Core · Spring Boot 3 · Next.js · Bun · GraphQL"
 echo -e "  ${PURPLE}│${RESET}  ${GREEN}Databases:${RESET}  PostgreSQL · SQL Server 2022 · Drizzle ORM · Prisma · EF Core"
-echo -e "  ${PURPLE}│${RESET}  ${GREEN}Mobile:${RESET}     Compose Multiplatform · Jetpack Compose (Android & Desktop)"
+echo -e "  ${PURPLE}│${RESET}  ${GREEN}Mobile:${RESET}     Kotlin Multiplatform · Compose (Android & Desktop)"
 echo -e "  ${PURPLE}│${RESET}  ${GREEN}Agentic AI:${RESET} Cursor · Antigravity · Claude Code · Copilot CLI · OpenCode · Kilo · MCP"
 echo -e "  ${PURPLE}│${RESET}  ${GREEN}Systems:${RESET}    Arch Linux · Wayland/Hyprland · Intel OpenVINO NPU · Docker"
 echo ""
 
 echo -e "  ${YELLOW}┌──${RESET} ${BOLD}Flagship Work${RESET}"
-echo -e "  ${YELLOW}│${RESET}  ${YELLOW}1.${RESET} ${BOLD}Ares Car Rental${RESET} (Graduation Project) → https://github.com/azsce/ares"
-echo -e "  ${YELLOW}│${RESET}  ${YELLOW}2.${RESET} ${BOLD}Siraj LMS (سراج)${RESET}                 → https://siraj-eight.vercel.app/"
-echo -e "  ${YELLOW}│${RESET}  ${YELLOW}3.${RESET} ${BOLD}Prompt House${RESET}                     → https://creative-prompts-chi.vercel.app"
-echo -e "  ${YELLOW}│${RESET}  ${YELLOW}4.${RESET} ${BOLD}Thekr (ذكر) Multiplatform${RESET}        → https://github.com/ahmedhosnypro/Thekr"
-echo -e "  ${YELLOW}│${RESET}  ${YELLOW}5.${RESET} ${BOLD}AI PR Generator Chrome Ext${RESET}       → https://github.com/ahmedhosnypro/github-pr-generator"
+echo -e "  ${YELLOW}│${RESET}  ${YELLOW}1.${RESET} ${BOLD}docs-mcp-server (MCP · RAG)${RESET}       → https://github.com/ahmedhosnypro/docs-mcp-server"
+echo -e "  ${YELLOW}│${RESET}  ${YELLOW}2.${RESET} ${BOLD}Prompt House${RESET}                     → https://creative-prompts-chi.vercel.app"
+echo -e "  ${YELLOW}│${RESET}  ${YELLOW}3.${RESET} ${BOLD}Ares Car Rental${RESET} (Graduation)      → https://github.com/azsce/ares"
+echo -e "  ${YELLOW}│${RESET}  ${YELLOW}4.${RESET} ${BOLD}Siraj LMS (سراج)${RESET}                 → https://siraj-eight.vercel.app/"
+echo -e "  ${YELLOW}│${RESET}  ${YELLOW}5.${RESET} ${BOLD}Thekr (ذكر) Multiplatform${RESET}        → https://github.com/ahmedhosnypro/Thekr"
+echo -e "  ${YELLOW}│${RESET}  ${YELLOW}6.${RESET} ${BOLD}AI PR Generator Chrome Ext${RESET}       → https://github.com/ahmedhosnypro/github-pr-generator"
 echo ""
 
 echo -e "  ${DARK}──────────────────────────────────────────────────────────────────────────${RESET}"

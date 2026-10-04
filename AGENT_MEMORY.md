@@ -6,15 +6,17 @@
 - **Email:** ahhosnyas@gmail.com
 - **LinkedIn:** [ahmedhosnypro](https://www.linkedin.com/in/ahmedhosnypro/)
 - **Twitter/X:** [@ahmedhosnypro](https://x.com/ahmedhosnypro)
-- **Role:** Full-Stack, Systems & Mobile Software Engineer
-- **Focus:** Scalable backend architectures, distributed web systems, cross-platform mobile systems, and high-performance developer tooling.
+- **Role:** AI & Agent Engineer — LLMs, RAG & Full-Stack Systems
+- **Focus:** Production LLM and multi-agent systems (agent orchestration, tool integration, RAG pipelines, MCP servers, guardrails, agent evals) built on a senior full-stack foundation.
 - **Education:** Computer Science & Systems Engineering, Al-Azhar University.
 - **Design & Code Ethos:** Minimalist, high-signal, dark/OLED aesthetics, strict type safety, modular architecture, and low cognitive complexity.
 
 ## Technical Matrix
 - **Languages:** TypeScript, C# (.NET), Kotlin, Java, SQL, Python, Bash, Rust.
+- **AI & Agent Engineering:** Multi-agent orchestration & workflows (planning, tool-use, state, handoffs), LLM API integration (Anthropic / OpenAI-compatible), RAG pipelines (embeddings, vector search, hybrid retrieval, reranking), prompt & context engineering, tool/function calling, structured outputs, guardrails & human-in-the-loop controls, agent evals & benchmarking (MRR / nDCG, VLM-judged).
+- **System Design & Practices:** Distributed system design, clean architecture, CQRS & event-driven patterns, microservices, multi-tenant platforms, API contract design, Agile & Scrum.
 - **Backend & APIs:** ASP.NET Core (.NET 10), Spring Boot (Java/Kotlin), Next.js (App Router), Bun, Node.js, GraphQL (Pothos/Apollo), REST (OpenAPI/Swagger), Redis caching.
-- **Mobile & Cross-Platform:** Android Development (Kotlin), Compose Multiplatform, Jetpack Compose, Kotlin Coroutines.
+- **Mobile & Cross-Platform:** Android Development (Kotlin), Kotlin Multiplatform, Compose Multiplatform, Jetpack Compose, Kotlin Coroutines.
 - **Agentic AI & Daily Tooling:**
   - **CLIs & Orchestrators:** Claude Code (`claude`), GitHub Copilot CLI, Kimi Code CLI, OpenCode (`opencode`), Kilo Code (`kilo`).
   - **IDEs & Workspaces:** Cursor, Google Antigravity, IntelliJ IDEA, VS Code.
@@ -24,37 +26,41 @@
 - **Systems, DevOps & Tooling:** Linux (Arch, Ubuntu, Wayland/Hyprland), Docker, Dev Containers, GitHub Actions CI/CD, UEFI multi-boot scripting, SonarQube, Biome, ESLint, Playwright, xUnit.
 
 ## Flagship Projects & Contributions
-1. **Ares Car Rental (Graduation Project)**
+1. **docs-mcp-server (Open Source Contribution)**
+   - *Repository:* [ahmedhosnypro/docs-mcp-server](https://github.com/ahmedhosnypro/docs-mcp-server) (Public fork)
+   - *Description:* Contribution to the open-source MCP server that gives AI coding agents grounded, version-aware documentation retrieval — hybrid SQLite FTS + vector embeddings fused via Reciprocal Rank Fusion. Author of store-hardening patches (variable embedding-dimension fallback) and retrieval-benchmarking proposals (MRR, nDCG, LLM-judged rubrics).
+   - *Stack:* TypeScript, MCP, SQLite FTS, Vector Embeddings, Playwright, Docker.
+2. **Ares Car Rental (Graduation Project)**
    - *Repository:* [azsce/ares](https://github.com/azsce/ares) (Public)
    - *Description:* Graduation project at Al-Azhar University. Full-stack vehicle rental & fleet management platform unifying booking workflows, inspections, driver assignments, and Paymob payments.
    - *Stack:* .NET 10 (ASP.NET Core), Next.js 16, Microsoft SQL Server, EF Core, Docker, Playwright, xUnit.
-2. **Siraj LMS (سراج)**
+3. **Siraj LMS (سراج)**
    - *Deployment:* [siraj-eight.vercel.app](https://siraj-eight.vercel.app/) (Live Dashboard)
    - *Repository:* [sirajLMS/siraj](https://github.com/sirajLMS/siraj) (Private)
    - *Description:* Modular Enterprise Learning Management System featuring scheduling engines, role-based access control (RBAC), and automated WhatsApp communication channels.
    - *Stack:* Next.js 16, Material UI, Drizzle ORM, PostgreSQL, GraphQL (Pothos), Zustand, next-intl.
-3. **Prompt House (Creative Prompts)**
+4. **Prompt House (Creative Prompts)**
    - *Deployment:* [creative-prompts-chi.vercel.app](https://creative-prompts-chi.vercel.app) (Live Demo)
    - *Repository:* [ahmedhosnypro/creative_prompts](https://github.com/ahmedhosnypro/creative_prompts) (Private)
    - *Description:* High-performance prompt engineering workspace with 3-pane layout, variable interpolation, line-diff AI edit workflows, and multi-provider execution.
    - *Stack:* Next.js 16, Tailwind CSS 4, Zustand, Prisma 8/7, SQLite (LibSQL) / Neon PostgreSQL.
-4. **Modern Weather App**
+5. **Modern Weather App**
    - *Deployment:* [weather-blush-phi.vercel.app](https://weather-blush-phi.vercel.app/) (Live App)
    - *Repository:* [ahmedhosnypro/weather](https://github.com/ahmedhosnypro/weather) (Private)
    - *Description:* Atmospheric analytics and forecasting app with dynamic charts, Mapbox location search, and client-side caching.
    - *Stack:* Next.js 15, React 19, Material UI, Recharts, Mapbox Search Core.
-5. **Thekr (ذكر) — Compose Multiplatform**
+6. **Thekr (ذكر) — Compose Multiplatform**
    - *Repository:* [ahmedhosnypro/Thekr](https://github.com/ahmedhosnypro/Thekr) (Public)
    - *Description:* Cross-platform Islamic remembrance application targeting Android and Desktop using Compose Multiplatform.
    - *Stack:* Kotlin, Compose Multiplatform, Jetpack Compose, Coroutines.
-6. **GitHub PR Generator**
+7. **GitHub PR Generator**
    - *Repository:* [ahmedhosnypro/github-pr-generator](https://github.com/ahmedhosnypro/github-pr-generator) (Public)
    - *Description:* AI-driven Chrome extension that inspects pull request diffs and generates structured titles and descriptions via OpenAI-compatible APIs.
    - *Stack:* TypeScript, Bun, Playwright, Chrome Extension APIs, Biome.
-7. **Spring Boot Backend Services**
+8. **Spring Boot Backend Services**
    - *Anti-Fraud System:* [ahmedhosnypro/Java_Anti-Fraud_System](https://github.com/ahmedhosnypro/Java_Anti-Fraud_System) — Transaction fraud detection with automated rules, IP/card blacklists, and Spring Security.
    - *Web Quiz Engine:* [ahmedhosnypro/Kotlin_Web_Quiz_Engine](https://github.com/ahmedhosnypro/Kotlin_Web_Quiz_Engine) — Scalable quiz API with token auth, pagination, and Spring Data JPA.
-8. **Open Source Contributions**
+9. **Open Source Contributions**
    - *JetBrains/compose-multiplatform:* [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) — Contributed to JetBrains' Kotlin declarative UI framework.
 
 ## Automated Profile Workflows
